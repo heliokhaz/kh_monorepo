@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "monorepolib"
+version = "0.1.0"
+description = "Monorepo containing m_utils and m_softdev packages"
+authors = [{ name = "pykhaz" }]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[tool.hatch.build.targets.wheel]
+packages = [
+  "m_utils/src/m_utils",
+  "m_softdev/src/m_softdev"
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.envs.default]
+dependencies = [
+  "pytest",
+]
+
+[tool.pytest.ini_options]
+testpaths = [
+  "m_utils/tests",
+  "m_softdev/tests"
+]
+pythonpath = [
+  "m_utils/src",
+  "m_softdev/src"
+]
