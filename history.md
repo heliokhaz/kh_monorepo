@@ -57,6 +57,9 @@ Nie zaznaczaj „Initialize with README” (bo już masz lokalne)
 Kliknij „Create repository”
 
 Skopiuj adres (np. https://github.com/pykhaz/monorepolib.git)
+https://github.com/heliokhaz/kh_monorepo
+https://github.com/heliokhaz/kh_monorepo.git
+git@github.com:heliokhaz/kh_monorepo.git
 
 ####🔗 KROK 5 – Połączenie zdalnego repo z lokalnym
 
