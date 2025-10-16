@@ -1,6 +1,6 @@
 # `monorepo` project
 
-# Moitvation
+# Motivation
 
 The project was developed to learn how to create a monorepo and how to synchronize it with GitHub.
 

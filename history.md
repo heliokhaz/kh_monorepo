@@ -65,7 +65,7 @@ git@github.com:heliokhaz/kh_monorepo.git
 
 W terminalu:
 
-git remote add origin https://github.com/pykhaz/monorepolib.git
+git remote add origin https://github.com/heliokhaz/kh_monorepo.git
 git branch -M main
 git push -u origin main
 
